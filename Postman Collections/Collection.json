@@ -216,8 +216,12 @@
 									"listen": "prerequest",
 									"script": {
 										"id": "e41fe39f-e2f4-45f5-95fc-f542c8444034",
-										"exec": [],
-										"type": "text/javascript"
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {},
+										"requests": {}
 									}
 								}
 							],
@@ -234,6 +238,15 @@
 										"type": "text"
 									}
 								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": "{{BaseURI}}/v1/contacts"
 							},
 							"response": []
